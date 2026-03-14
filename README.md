@@ -1,19 +1,33 @@
-# TP Data Mining - Pipeline d'Acquisition KDD
+# 📊 TP Data Mining - Pipeline d'Acquisition KDD
 
-## Objectif du TP
-L'objectif de ce travail est de mettre en place la première étape du processus KDD : la Collecte de Données multi-sources. Ce projet démontre la capacité à consolider des informations provenant de supports hétérogènes.
+## 👤 Informations Personnelles
+- **Nom :** Mariem med hanenne
+- **Filière :** DAII
+- **Encadrant :** Pr. EL BENANY Mohamed Mahmoud
+- **Année :** 2025-2026
 
-## Bibliothèques nécessaires
-- Pandas & Numpy
-- Requests
-- SQLAlchemy & SQLite3
-- Openpyxl (pour Excel)
+---
 
-## Description des sources de données
-1. Fichier CSV : student-mat.csv
-2. Base de données SQL : tp_data_mining.db
-3. API Web : JSONPlaceholder
-4. Fichier Excel : donnees_test.xlsx
+## 🎯 Objectif du Projet
+L'objectif de ce travail est de mettre en place la première étape du processus **KDD** (Knowledge Discovery in Databases) : la **Collecte de Données multi-sources**. Ce projet démontre la capacité à consolider des informations provenant de supports hétérogènes dans un seul environnement d'analyse.
 
-## Résultat Final
-Le projet produit un DataFrame unique fusionnant toutes les sources pour une analyse statistique globale.
+## 🛠️ Bibliothèques utilisées
+Pour réaliser ce pipeline, les dépendances suivantes ont été installées :
+* 🐼 **Pandas & Numpy** : Pour la manipulation et l'analyse des données.
+* 🌐 **Requests** : Pour la consommation de l'API REST.
+* 🗄️ **SQLAlchemy & SQLite3** : Pour l'extraction depuis la base de données.
+* 📈 **Openpyxl** : Pour la gestion des fichiers Excel.
+
+## 📂 Description des Sources de Données
+Le projet fusionne quatre sources distinctes :
+1. **Fichier CSV** : `student-mat.csv` (Données scolaires).
+2. **Base de données SQL** : `tp_data_mining.db`.
+3. **API Web** : Récupération de posts via `JSONPlaceholder`.
+4. **Fichier Excel** : `donnees_test.xlsx` (Données de test créées manuellement).
+
+## 🚀 Résultat Final
+Le script produit un **DataFrame unique** fusionnant toutes ces sources. 
+> **Note :** Le pipeline inclut également une étape de **Web Scraping** pour extraire des titres depuis le site `books.toscrape.com`.
+
+---
+*Ce projet a été réalisé dans le cadre du module Data Mining.*
